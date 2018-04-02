@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<header>
+		<h2>Find tre weather forecast in your city</h2>
+	</header>
+	<div class="wrapper">
+		<form id="form1" action="" method="">
+			<p>Вберите населенный пункт</p>
+			<!--<label for="enterCountry">Введите название страны</label>
+			<input type="text" id="enterCountry" name="country"><br> -->
+			<select id="countryList" name="country"></select>
+		
+			<!--<label for="enterCity">Введите название города</label>
+			<input type="text" id="enterCity" name="city"><br> -->
+			<select id="cityList" name="city"></select>
+		</form>
+			<div id="weather">
+				<div class="box">
+					<label for="#sunrise">Восход солнца:</label><br>
+						<input type="text" name="" id="sunrise" disabled><br>
+					<label for="#sunset">Заход солнца:</label><br>
+						<input type="text" name="" id="sunset" disabled><br>
+				</div>
+				<div class="box">
+					<label for="#todayData">Дата:</label><br>
+						<input type="text" name="" id="todayData" disabled><br>
+					<label for="#weakDay">День недели:</label><br>
+						<input type="text" name="" id="weakDay" disabled><br>
+				</div>
+				<div class="box">
+					<label for="#t1">Температура днем:</label><br>
+						<input type="text" name="" id="t1" disabled><br>
+					<label for="#t2">Температура ночью:</label><br>
+						<input type="text" name="" id="t2" disabled>
+				</div>
+			</div>
+	</div>
+
+	<!-- <script type="text/javascript" src="common.js"></script> страны, города, запрос погоды без промисов--> 
+	<script type="text/javascript" src="commonPromise.js"></script>
+</body>
+</html>

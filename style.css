@@ -1,0 +1,81 @@
+body {
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	height: 690px;
+	background: #ffbd38 url(sun.jpg) 0 0 no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	overflow: hidden;
+}
+	header {
+		padding-top: 8px;
+		margin-left: 15%;
+		width: 85%;
+		height: 120px;
+		background: #000012 url(clouds.jpg) 0 0 no-repeat;
+		-webkit-background-size: cover;
+		background-size: cover;
+		border-bottom-left-radius: 120px;
+		opacity: 0.8;
+	}
+		h2 {
+			padding-right: 30px;
+			font-size: 38px;
+			font-style: italic;
+			text-align: right;
+			color: #000;
+			letter-spacing: 2px;
+			word-spacing: 5px;
+			text-shadow: 4px -3px 10px #aaa;
+		}
+.wrapper {
+	width: 80%;
+	margin: 15px auto;
+}
+	form {
+		width: 80%;
+		padding: 8px;
+		margin-left: 10%;
+		border: 1px solid #a8d0ec;
+		border-radius: 10px;
+	}
+		form p {
+			text-align: center;
+			font-size: 28px;
+			color: #264f94;
+			line-height: 20%;
+		}
+		.wrapper select {
+			margin: 15px 5%;
+			width: 42%;
+			height: 40px;
+			background-color: #a8d0ec;
+			border: 1px solid #264f94;
+			border-radius: 15px;	
+			color: #3c132d;
+		}
+		.wrapper #cityList {
+			margin-left: 0;
+		}
+#weather {
+	height: 160px;
+	padding-top: 17px;
+	margin-top: 50px;
+	color: #3c132d;
+	font-size: 18px;
+	border-radius: 50px;
+	background-color: #a8d0ec;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+	#weather input {
+		margin-bottom: 10px;
+		height: 20px;
+		padding-left: 8px;
+	}
